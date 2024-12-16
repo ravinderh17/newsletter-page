@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;;
+      }
+
+      body {
+        height: 100vh;
+        background-color: #F9FAFB;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+      .section {
+        margin-top: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @media (max-width:640px) {
+        section{
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+      }
+      
+      .header{
+        font-weight: 600;
+        font-size: 3rem;
+        color: #000000;
+      }
+      .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 110vh;
+        text-align: center;
+      }
+      .subheading{
+        display: flex;
+        /* max-width: 110vh; */
+        color: #6C727F;
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
+      .form-container{
+        /* background-color:chocolate; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vh;
+      }
+      .form-input{
+        background-color: white; 
+        margin: 2rem;
+        padding: 1em;
+        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+        
+      }
+
+      input, button{
+        background-color: #284BCE;
+        color: white;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+      }
+      input{
+        background-color: #F9FAFB;
+        text-align: center;
+        color: #6C727F;
+        font-weight: 500;
+      }
+      button{
+        font-weight: 600;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <div class="content">
+          <img src="resources/logo.svg" alt="">
+          <h1><span class="header">Join our newsletter</span></h1>
+          <div class="subheading">
+            Keep up with our latest collections, exclusive deals, and special offers! <br> We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
+          </div>
+        <form class="form-container">
+          <div class="form-input">
+            <input type="email" id="email" placeholder="Enter your email address
+            ">
+           
+          <div class="button">
+            <button>Subscribe now</button>
+          </div>
+          <span style="font-size: 0.875rem; color: #394150;">Your email is 100% confidential and won’t send you any spam.</span>
+          </div>       
+          </form>
+      </div>
+      </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="#">Ravinder Kaur</a> 
+    </div>
+  </body>
+</html>
