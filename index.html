@@ -11,9 +11,12 @@
       sizes="96x96"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Join Our Newsletter | devChallenges.io</title>
 
@@ -23,12 +26,12 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Poppins", sans-serif;;
+        font-family: "Poppins", sans-serif;
       }
 
       body {
         height: 100vh;
-        background-color: #F9FAFB;
+        background-color: #f9fafb;
         display: flex;
         flex-direction: column;
       }
@@ -49,51 +52,52 @@
         align-items: center;
         justify-content: center;
       }
-      @media (max-width:640px) {
-        section{
+      @media (max-width: 640px) {
+        section {
           margin-left: 2px;
           margin-right: 2px;
         }
       }
-      
-      .header{
+
+      .header {
         font-weight: 600;
         font-size: 3rem;
         color: #000000;
       }
-      .content{
+      .content {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        max-width: 110vh;
+        max-width: 115vh;
         text-align: center;
       }
-      .subheading{
+      .subheading {
         display: flex;
         /* max-width: 110vh; */
-        color: #6C727F;
+        color: #6c727f;
         font-weight: 400;
         font-size: 1.25rem;
       }
-      .form-container{
+      .form-container {
         /* background-color:chocolate; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80vh;
+        width: 90vh;
       }
-      .form-input{
-        background-color: white; 
+      .form-input {
+        background-color: white;
         margin: 2rem;
         padding: 1em;
-        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
-        
+        box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+          0px 8px 12px 0px rgba(0, 0, 0, 0.08);
       }
 
-      input, button{
-        background-color: #284BCE;
+      input,
+      button {
+        background-color: #284bce;
         color: white;
         width: 100%;
         border: none;
@@ -102,44 +106,51 @@
         margin-bottom: 20px;
         font-size: 1rem;
       }
-      input{
-        background-color: #F9FAFB;
+      input {
+        background-color: #f9fafb;
         text-align: center;
-        color: #6C727F;
+        color: #6c727f;
         font-weight: 500;
       }
-      button{
+      button {
         font-weight: 600;
       }
-      
     </style>
   </head>
   <body>
     <div class="section">
       <div class="container">
         <div class="content">
-          <img src="resources/logo.svg" alt="">
+          <img src="resources/logo.svg" alt="" />
           <h1><span class="header">Join our newsletter</span></h1>
           <div class="subheading">
-            Keep up with our latest collections, exclusive deals, and special offers! <br> We introduce a new collection every week, so stay tuned to snag the hottest items just for you.
+            Keep up with our latest collections, exclusive deals, and special
+            offers! <br />
+            We introduce a new collection every week, so stay tuned to snag the
+            hottest items just for you.
           </div>
-        <form class="form-container">
-          <div class="form-input">
-            <input type="email" id="email" placeholder="Enter your email address
-            ">
-           
-          <div class="button">
-            <button>Subscribe now</button>
-          </div>
-          <span style="font-size: 0.875rem; color: #394150;">Your email is 100% confidential and won’t send you any spam.</span>
-          </div>       
+          <form class="form-container">
+            <div class="form-input">
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address
+            "
+              />
+
+              <div class="button">
+                <button>Subscribe now</button>
+              </div>
+              <span style="font-size: 0.875rem; color: #394150"
+                >Your email is 100% confidential and won’t send you any
+                spam.</span
+              >
+            </div>
           </form>
-      </div>
+        </div>
       </div>
     </div>
 
-    <div class="author-info">
-      Coded by <a href="#">Ravinder Kaur</a> 
-    </div>
+    <div class="author-info">Coded by <a href="#">Ravinder Kaur</a></div>
   </body>
 </html>
